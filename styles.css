@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+body
+{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+main{
+    border: solid red;
+    height: 500px;
+    width: 320px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    display: flex;
+    align-items:  center;/*centra de arriba a abajo*/
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    font-family: "Inter";
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight:600;
+    display: flex;
+    justify-content: center;
+}
+.titulo2{
+    padding: 13px;
+    font-family: "Inter";
+    color:hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight:400;
+    display: flex;
+    justify-content: center;
+}
+.titulo3{
+    padding: 11px;
+    font-family: "Inter";
+    color:hsl(0, 0%, 100%);
+    font-size: 11px;
+    font-weight:400;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+}
+img{
+    padding: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: hsl(250, 6%, 20%);;
+    border-radius: 5px;
+    margin: 5px;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 13%);
+}
