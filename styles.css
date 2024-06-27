@@ -13,7 +13,6 @@ body
     height: 100vh;
 }
 main{
-    border: solid red;
     height: 500px;
     width: 320px;
     background-color: hsl(0, 0%, 12%);
