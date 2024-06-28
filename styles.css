@@ -45,10 +45,11 @@ main{
     justify-content: center;
 }
 .titulo3{
-    padding: 11px;
+    margin-bottom: 15px;
+    padding: 2px;
     font-family: "Inter";
     color:hsl(0, 0%, 100%);
-    font-size: 11px;
+    font-size: 13px;
     font-weight:400;
     font-weight: bold;
 
@@ -66,14 +67,19 @@ img{
 .botones{
     display: flex;
     flex-direction: column;
-}
 
+}
+a{
+    text-decoration: none;
+}
 button{
-    background-color: hsl(250, 6%, 20%);;
-    border-radius: 5px;
+    background-color: #333333;
+    border-radius: 10px;
+    border: none;
     margin: 5px;
     height: 40px;
     width: 250px;
+
     display: flex;
     justify-content: center;
     align-items: center;
